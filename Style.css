@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0093E9;
+    background-image: linear-gradient(310deg, #0093E9 0%, #80D0C7 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Splash Screen Style */
+
+.splash-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.splash-screen h1 {
+    font-size: 100px;
+    font-family: Quintessential;
+}
+
+@media (max-width: 468px) {
+    .splash-screen img {
+        height: 150px;
+    } 
+
+    .splash-screen h1 {
+        /* background-color: blue; */
+        font-size:45px;
+    }
+    
+}
+/* Note App Style */
+
+.container > h1 , .card h1 {
+    font-family: Quintessential;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* .card {
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid black;
+} */
+
+.card-title, .form-control{
+    font-size: 25px;
+}
+
+#addBtn {
+    font-size: 25px;
+}
