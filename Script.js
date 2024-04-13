@@ -59,7 +59,7 @@ function showNotes() {
         notesElm.innerHTML = html;
     }
     else {
-        notesElm.innerHTML = 'write something..';
+       notesElm.innerHTML = '<h3>No Notes are saved yet ... </h3>';
     }
 }
 
